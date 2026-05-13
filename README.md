@@ -1,4 +1,4 @@
-# 🏦 Loan Default Risk Classification for Banking
+#  Loan Default Risk Classification for Banking
 
 A machine learning and predictive analytics project focused on identifying whether a loan applicant is likely to default on a loan using financial and credit-related information from the LendingClub dataset.
 
@@ -13,7 +13,7 @@ to build an intelligent and interpretable loan risk prediction system for bankin
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 Loan default prediction is one of the most important applications of machine learning in the banking and finance sector. Financial institutions need reliable systems to reduce risky loan approvals while maintaining business growth.
 
@@ -28,7 +28,7 @@ The project focuses on:
 
 ---
 
-# 🎯 Problem Statement
+# Problem Statement
 
 Banks and financial institutions lose significant amounts of money due to loan defaults. Manual risk assessment methods are often inconsistent and inefficient.
 
@@ -40,7 +40,7 @@ The objective of this project is to build a machine learning system that:
 
 ---
 
-# 🚀 Objectives
+#  Objectives
 
 - Perform complete Exploratory Data Analysis (EDA)
 - Understand financial risk patterns
@@ -53,25 +53,23 @@ The objective of this project is to build a machine learning system that:
 
 ---
 
-# 👨‍💻 Team Members
+# Team Members
 
 | Team Member | Contribution |
-|------|------|
+
 | Member 1 | Data Collection & EDA |
 | Member 2 | Model Building & Evaluation |
 | Member 3 | Deployment & Documentation |
 
 ---
 
-# 📚 Course Information
-
-- **Course:** Data Science / Machine Learning Project
+#  Course Information
 - **Project Type:** Predictive Analytics
 - **Academic Year:** 2026
 
 ---
 
-# 📂 Dataset Information
+#  Dataset Information
 
 ## Dataset Used
 - LendingClub Loan Dataset
@@ -85,7 +83,7 @@ The dataset contains loan application details, borrower financial information, r
 
 ---
 
-# 📊 Important Features
+#  Important Features
 
 The dataset includes:
 
@@ -103,7 +101,7 @@ The dataset includes:
 
 ---
 
-# 🎯 Target Variable
+#  Target Variable
 
 | Value | Meaning |
 |------|------|
@@ -112,7 +110,7 @@ The dataset includes:
 
 ---
 
-# ⚠️ Class Imbalance Problem
+# Class Imbalance Problem
 
 The dataset is highly imbalanced because most customers successfully repay loans.
 
@@ -124,23 +122,23 @@ To address this issue, the project uses:
 
 ---
 
-# 🔄 Data Science Life Cycle
+#  Data Science Life Cycle
 
 ---
 
-## 1️⃣ Problem Understanding
+## 1️ Problem Understanding
 
 Understanding the business impact of loan defaults and the importance of accurate credit risk prediction.
 
 ---
 
-## 2️⃣ Data Collection
+## 2️ Data Collection
 
 Collected LendingClub loan dataset containing borrower financial information and loan repayment details.
 
 ---
 
-## 3️⃣ Data Cleaning
+## 3️ Data Cleaning
 
 Performed:
 - Missing value analysis
@@ -151,7 +149,7 @@ Performed:
 
 ---
 
-## 4️⃣ Exploratory Data Analysis (EDA)
+## 4️ Exploratory Data Analysis (EDA)
 
 Detailed EDA was performed to understand:
 - Loan default distribution
@@ -162,7 +160,7 @@ Detailed EDA was performed to understand:
 
 ---
 
-# 📈 EDA Highlights
+#  EDA Highlights
 
 ### ✅ Loan Status Distribution
 Analyzed the distribution of default and non-default loans.
@@ -194,7 +192,7 @@ Analyzed default trends across:
 
 ---
 
-# 📷 EDA Visualizations
+# EDA Visualizations
 
 ## Loan Status Distribution
 ![Loan Status Distribution](images/loan_status_distribution.png)
@@ -221,7 +219,7 @@ Performed:
 
 ---
 
-# 🤖 Machine Learning Models
+#  Machine Learning Models
 
 The following models are implemented:
 
@@ -245,7 +243,7 @@ A high-performance gradient boosting framework optimized for structured financia
 
 ---
 
-# 📊 Model Evaluation Metrics
+# Model Evaluation Metrics
 
 Models are evaluated using:
 
@@ -258,7 +256,7 @@ Models are evaluated using:
 
 ---
 
-# 📈 Model Comparison
+# Model Comparison
 
 | Model | Accuracy | Recall | Precision | F1-Score |
 |------|------|------|------|------|
@@ -270,7 +268,7 @@ Models are evaluated using:
 
 ---
 
-# 📌 Why Recall is Important
+#  Why Recall is Important
 
 In banking systems, failing to identify risky applicants can lead to major financial losses.
 
@@ -281,7 +279,7 @@ Therefore, Recall Score is prioritized because it:
 
 ---
 
-# 🔍 Explainable AI using SHAP
+# Explainable AI using SHAP
 
 SHAP (SHapley Additive exPlanations) is used to explain model predictions.
 
@@ -293,7 +291,7 @@ SHAP helps:
 
 ---
 
-# 📷 SHAP Explainability
+# 📷SHAP Explainability
 
 ![SHAP Visualization](images/shap_visualization.png)
 
@@ -312,9 +310,9 @@ Users can:
 
 ---
 
-# 🚀 Live Deployment
+#  Live Deployment
 
-👉 **Streamlit App:**  
+ **Streamlit App:**  
 [Add Deployment Link Here]
 
 ---
@@ -332,13 +330,13 @@ Users can:
 
 ---
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 ![Architecture Diagram](images/project_architecture.png)
 
 ---
 
-# 🔄 Workflow Pipeline
+# Workflow Pipeline
 
 ```text
 Data Collection
@@ -360,7 +358,7 @@ Streamlit Deployment
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 | Category | Tools & Libraries |
 |------|------|
@@ -374,7 +372,7 @@ Streamlit Deployment
 
 ---
 
-# 📁 Repository Structure
+#  Repository Structure
 
 ```bash
 Loan_risk_classification/
@@ -401,7 +399,7 @@ Loan_risk_classification/
 
 ---
 
-# ⚙️ Installation & Setup
+#  Installation & Setup
 
 ## Clone the Repository
 
@@ -435,7 +433,7 @@ streamlit run app.py
 
 ---
 
-# 📦 Requirements
+#  Requirements
 
 ```txt
 pandas
@@ -470,19 +468,18 @@ feature/deployment
 
 ---
 
-# 📄 Submission Components Included
+# 📄Submission Components Included
 
 ✅ Source Code  
 ✅ Jupyter Notebooks  
 ✅ Streamlit Deployment  
 ✅ README Documentation  
-✅ PPT Presentation  
-✅ Individual Contribution Profiles  
+✅ PPT Presentation   
 ✅ requirements.txt  
 
 ---
 
-# ⚠️ Limitations
+#  Limitations
 
 - Model performance depends on dataset quality
 - Financial conditions may affect prediction reliability
@@ -490,7 +487,7 @@ feature/deployment
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 - Deep Learning implementation
 - Real-time prediction API
@@ -506,13 +503,6 @@ feature/deployment
 - Scikit-learn Documentation
 - Streamlit Documentation
 - SHAP Documentation
-
----
-
-#  Contact
-
-- GitHub: https://github.com/yourusername
-- Email: yourmail@example.com
 
 ---
 
