@@ -88,7 +88,7 @@ python train.py --data tests\smoke_data.csv --target-col loan_status --output-di
 Train first, then run:
 
 ```powershell
-streamlit run app.py
+https://loanriskclassification-rgaasxyyusfyja7sal29hv.streamlit.app/
 ```
 
 The app loads `outputs/smoke` by default. Change the output directory in the sidebar after training on a full dataset.
